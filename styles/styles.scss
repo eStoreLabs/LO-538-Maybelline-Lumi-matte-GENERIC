@@ -613,6 +613,17 @@ $color-black: #000000;
 
 
     /**************************************/
+    /******* cross sell styles ************/
+    /**************************************/
+
+    .es-disclaimer {
+        padding: 20px 16px;
+        background-color: $color-secondary;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    /**************************************/
     /*********** footer styles ************/
     /**************************************/
     .es-footer {

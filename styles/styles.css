@@ -31,12 +31,11 @@
   /******* cross sell styles ************/
   /**************************************/
   /**************************************/
+  /******* cross sell styles ************/
+  /**************************************/
+  /**************************************/
   /*********** footer styles ************/
   /**************************************/
-}
-#es-rc #es-rc-content ::-moz-selection {
-  background-color: #C28860;
-  color: #FFF;
 }
 #es-rc #es-rc-content ::selection {
   background-color: #C28860;
@@ -315,8 +314,7 @@
     width: 100%;
   }
   #es-rc #es-rc-content .es-tech__bg-desktop img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     height: 100%;
     width: 100%;
   }
@@ -489,7 +487,15 @@
     height: 7em;
   }
 }
+#es-rc #es-rc-content .es-disclaimer {
+  padding: 20px 16px;
+  background-color: #E8E1E9;
+  text-align: center;
+  font-size: 13px;
+}
 #es-rc #es-rc-content .es-footer {
   background-color: #000000;
   padding: 24px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
